@@ -5,10 +5,14 @@
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Requirements](#requirements)
 - [Usage](#usage)
-- [Introduction](#introduction)
-- [Running tests](#running-tests)
+- [Sample Program](#sample-program)
+- [Running Tests](#running-tests)
+
+## Overview
+This project is our compiler for the Fall 2018 Progamming Languages and Translators class at Columbia University taught by Professor Stephen Edwards. We worked a group to design our own programming language and compiler for it. The [Shoo_Final_Report.pdf](https://github.com/claire-1/shoo-lang/blob/master/Shoo_Final_Report.pdf) details the development of our language, how to write a program in our language, and the division of labor. 
 
 ## Requirements
 
@@ -28,7 +32,7 @@ Build the compiler binary using make.
 $ make
 ```
 
-## Introduction
+## Sample Program
 
 Shoo is a programming language with C-like syntax while supporting first class functions, structs, and type inference.
 
@@ -78,7 +82,7 @@ Professor stephen = createProfessor("Stephen");
 createStudentCreator("hello")("Sam").greet(stephen);
 ```
 
-## Running tests
+## Running Tests
 
 Take a look inside testall.sh for the variables which set the path to the LLVM interpreter as variable "lli". 
 Set the path to the LLVM compiler as "llc". Set the path to the C compiler as "cc".
