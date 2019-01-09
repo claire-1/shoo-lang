@@ -12,7 +12,7 @@
 - [Running Tests](#running-tests)
 
 ## Overview
-This project is our compiler for the Fall 2018 Progamming Languages and Translators class at Columbia University taught by Professor Stephen Edwards. We worked a group to design our own programming language and compiler for it. The [Shoo_Final_Report.pdf](https://github.com/claire-1/shoo-lang/blob/master/Shoo_Final_Report.pdf) details the development of our language, how to write a program in our language, and the division of labor. 
+This project is our compiler for the Fall 2018 Progamming Languages and Translators class at Columbia University taught by Professor Stephen Edwards. We worked a group to design our own programming language and compiler for it. The [Shoo_Final_Report.pdf](https://github.com/claire-1/shoo-lang/blob/master/final_report/Shoo_Final_Report.pdf) details the development of our language, how to write a program in our language, and the division of labor. 
 
 ## Requirements
 
